@@ -1,0 +1,82 @@
+header h1{
+    text-align: center;
+    background-color: yellow;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 100px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a:hover {
+    background-color: rgb(158, 158, 30);
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.main-content{
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 12px;
+}
+main h2 ,h3{
+    text-align: center;
+    margin-top: 0px;
+}
+main h2{
+    border: 2px solid red;
+    border-radius: 12px;
+    background-color: yellow;
+}
+main h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main-content p{
+    text-align: left;
+}
+.aside-content{
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 12px;
+}
+.aside a{
+    padding: 0px;
+    color: black;
+}
+footer{
+    text-align: center;
+    background-color: yellow;
+    height: 150px;
+    border: 2px solid red;
+    border-radius: 12px;
+}
+.about-me{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.about-me p{
+    padding: 20px;
+}
+.Ghana{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.city{
+    padding-left: 20px;
+}
