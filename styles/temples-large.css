@@ -1,0 +1,32 @@
+/*This CSS file will be used for a larger view*/
+
+header{
+    background-color: violet;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.navigation{
+    display: flex;
+    flex-direction: space-around;
+    padding-left: 700px;
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 70px;
+}
+h2{
+    text-align: center;
+}
+.temples{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer{
+    text-align: center;
+    height: 100px;
+    background-color: violet;
+    border: 2px solid black;
+    border-radius: 12px;
+}
