@@ -1,1 +1,111 @@
-/*This CSS file will be used for the mobile view*/
+*{
+    margin: 0;
+}
+header{
+    display: grid;
+    grid-gap: 1rem;
+    padding: 15px;
+    background-color: aqua;
+}
+header h1 {
+    grid-column: 1/2;
+    font-family: "Roboto","serif";
+    font-size: 2.3em;
+    padding-top: 0.6em;
+    color: blue;
+}
+.menu{
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+}
+.menu::before {
+    content: '☰'
+}
+
+.menu.show::before{
+    content: 'X'
+}
+nav{
+    display: flex;
+    background-color: aqua;
+    font-family: "Roboto", serif;
+    font-size: 1.5em;
+    flex-direction: column;
+    width: 100%;
+    z-index: 1;
+}
+
+nav a{
+    display: none;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+}
+
+nav a:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 3px;
+}
+.show a{
+    display: block;
+    z-index: 1;
+}
+
+main{
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 20px;
+    z-index: -1;
+}
+
+h2{
+    margin: 1rem;
+    grid-row: 1/2;
+    justify-content: center;
+    margin: auto;
+    font-family:"Roboto", serif;
+    color: blue;
+    text-align:center;
+    padding: 25px;
+}
+.temples{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 25px;
+    margin: 0;
+}
+figure {
+    display: grid;
+    justify-self: center;
+}
+
+figcaption {
+    justify-self: center;
+    font-family: "Roboto";
+    color: #343a40;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    background-color: aqua;
+    color: blue;
+    font-family: "Roboto", serif;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p{
+    padding: .25em;
+}

@@ -6,7 +6,7 @@ header, main, footer{
     margin: 1rem auto;
     border: 1px solid skyblue;
     padding: 1rem;
-    background-color:aqua;
+    background-color: aqua;
 }
 main{
     display: grid;
