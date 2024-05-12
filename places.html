@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creating a responsive web page about the country i would love to visit and live.">
+    <meta name="author" content="William Osiakwan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <title>New York City, United States</title>
+</head>
+<body>
+    <header>
+        <h1>New York City, United States</h1>
+        <div class="spacer"></div>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/nyc night.webp" media="(max-width:820px)">
+                <img src="images/nyc day.webp" alt="statue-of-liberty">
+            </picture>
+            <div class="small-spacer"></div>
+        </div>
+        <div class="data">
+            <h2>Data</h2>
+        <div class="data-item">
+            <p class="label">Area:</p>
+            <p class="value">783.8 km²</p>
+        </div>
+        <div class="data-item">
+            <p class="label">Population:</p>
+            <p class="value">8.336 million (2022)</p>
+        </div>
+        <div class="data-item">
+            <p class="label">Capital:</p>
+            <p class="value">New York State</p>
+        </div>
+        <div class="data-item">
+            <p class="label">Languages:</p>
+            <p class="value">English</p>
+        </div>
+        <div class="data-item">
+            <p class="label">Currency:</p>
+            <p class="value">U.S. dollar ($)</p>
+        </div>
+        <div class="data-item">
+            <p class="label">Time Zone:</p>
+            <p class="value">Eastern Daylight Time. UTC-4</p>
+        </div>
+        <div class="data-item">
+            <p class="label">Calling Code:</p>
+            <p class="value">+1</p>
+        </div>
+        <div class="data-item">
+            <p class="label">Interet TLD:</p>
+            <p class="value">.nyc</p>
+        </div>
+        <div class="data-item">
+            <p class="label">Population:</p>
+            <p class="value">342M</p>
+        </div>
+
+        <div class="weather">
+            <h2 class="weather-h2">Weather</h2>
+            <img class="weather-icon" src="images/weather_icon.svg" alt="partly cloudy">
+            <div class="data-item">
+                <p class="label">Temperature:</p>
+                <p class="value">12°C</p>
+            </div>
+            <div class="data-item">
+                <p class="label">Conditions:</p>
+                <p class="value">Cloudy</p>
+            </div>
+    
+            <div class="data-item">
+                <p class="label">Wind:</p>
+                <p class="value">13 km/h</p>
+            </div>
+            <div class="data-item">
+                <p class="label">Wind Chill:</p>
+                <p class="value"><span id="windchill"></span></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span>| William Osiakwan | Accra, Ghana</p>
+        <p>This webpage was last modified on <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
