@@ -1,12 +1,2 @@
-const hamburgerMenu = document.querySelector('.hamburger-menu');
-const navbarLinks = document.querySelector('.navbar-links');
-
-hamburgerMenu.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active');
-});
-
-window.addEventListener('resize', () => {
-    if (window.innerWidth > 768) {
-        navbarLinks.classList.remove('active');
-    }
-});
+let esomeprazole = {'id':'mnb78932','amount':23145,'amountType':'ct','expDate':'10/01/2021'}
+let dose = esomeprazole['amount'] 
