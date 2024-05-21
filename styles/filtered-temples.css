@@ -33,7 +33,7 @@ header h1 {
 }
 nav{
     display: flex;
-    background-color: aqua;
+    background-color: rgb(224, 224, 224);
     font-family: "Roboto", serif;
     font-size: 1.5em;
     flex-direction: column;
@@ -163,7 +163,7 @@ footer p{
         display: grid;
         grid-gap: 1rem;
         padding: 15px;
-        background-color: aqua;
+        background-color: rgb(224, 224, 224);
     }
     h1 {
         font-family: 'Roboto', serif;
