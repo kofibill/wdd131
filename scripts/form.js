@@ -30,8 +30,8 @@ const productNames = products.map((product) => product.name);
 const selectMenu = document.querySelector("#product-name");
 const reviewsDisplay = document.querySelector(".review-number")
 let numReviews = GetReviews()
-  
-  
+
+
 if (document.title === "Review Page") {
   addEventListener('DOMContentLoaded', function() {
     numReviews++
@@ -39,27 +39,27 @@ if (document.title === "Review Page") {
     SetReviews();
 })
 }
-  
+
 function GetReviews() {
   return JSON.parse(this.localStorage.getItem("numReviews"))
 }
-  
+
 function DisplayReviews(reviews) {
   reviewsDisplay.innerHTML = reviews;
- 
 }
 
 function SetReviews() {
   this.localStorage.setItem("numReviews", JSON.stringify(numReviews))
 }
-  
+
 function mapNames(array) {
     array.forEach((name) => {
-        const nameOption = selectMenu.innerHTML += `<option value="${name}">${name}</option>`
+      const nameOption = selectMenu.innerHTML += `<option value="${name}">${name}</option>`
     })
 }
-  
+
 mapNames(productNames);
+
 
 const year= document.getElementById("currentyear").textContent = new Date().getFullYear();
 let today = document.getElementById("lastmodified").textContent = new Date();
