@@ -1,0 +1,27 @@
+body{
+    max-width: 1400px;
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: gold;
+    height: 100px;
+    padding-top: 3px;
+}
+h2{
+    font-family: "Roboto","sans-serif";
+}
+p{
+    font-family: "Roboto","sans-serif";
+}
+footer{
+    background-color: black;
+    color: gold;
+    height: 100px;
+    padding-top: 3px;
+}
+section{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
