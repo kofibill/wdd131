@@ -9,13 +9,13 @@ header{
     padding: 15px;
     background-color: black;
 }
-header h1 {
+/*header h1 {
     grid-column: 1/2;
     font-family: "Montserrat","serif";
     font-size: 2.3em;
     padding-top: 0.6em;
     color: blue;
-}
+}*/
 .menu{
     display: block;
     position: absolute;
@@ -43,6 +43,11 @@ nav{
     z-index: 1;
 }
 
+.logos{
+    grid-column: 1/2;
+    width: 150px;
+    height: 100px;
+}
 nav a{
     display: none;
     padding: 1.2rem;
