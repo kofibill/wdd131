@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Creating my final project about the US military">
+  <meta name="author" content="William Osiakwan">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/contactus.css">
+  <script src="scripts/" defer></script>
+  <title>Contact Us</title>
+</head>
+<body>
+    <header>
+      <button class="menu"></button>
+      <nav class="navigation">
+        <a href="home-page.html">Home</a>
+        <a href="army.html">US Army</a>
+        <a href="navy.html">US Navy</a>
+        <a href="air-force.html">US Airforce</a>
+        <a href="marines.html">US Marines</a>
+        <a href="contactus.html">Contact Us</a>
+      </nav>
+    </header>
+
+    <main>
+        <h1>Join the Military</h1>
+        <form id="contactForm">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+        
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone number">Phone Number</label><br>
+            <input type="text" id="phone number" name="phone number" required><br><!--work on this in css bcos its new-->
+        
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+        
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
