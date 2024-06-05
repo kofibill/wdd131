@@ -70,11 +70,15 @@ main{
 }
 
 .largelogo{
-    margin-left: 39%;
+    margin-left: 35%;
 }
 p{
     font-family: "Roboto", "sans-serif";
     padding: 15px;
+}
+h1{
+    text-align: center;
+    color: gold;
 }
 
 h2{
